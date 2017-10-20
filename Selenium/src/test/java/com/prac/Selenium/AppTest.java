@@ -25,7 +25,9 @@ public class AppTest
      */
     public static Test suite()
     {
+    	System.out.println("changed the code");
         return new TestSuite( AppTest.class );
+        
     }
 
     /**
